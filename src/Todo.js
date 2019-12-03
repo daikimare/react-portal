@@ -8,7 +8,7 @@ class Todo extends Component{
     return (
       <li className= {className}>
         <span>{this.props.id}</span>
-        <span>:{this.props.title}</span>
+        <span>:{this.props.title} </span>
         <a href= "">{link}</a>
         <p>{this.props.desc}</p>
       </li>
