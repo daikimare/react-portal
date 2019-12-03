@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Todo from './Todo';
 
-class TodoList extends Component{
+class TodoList extends React.Component{
 
   render(){
     const todos = this.props.todos.map( todo =>

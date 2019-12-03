@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './css/todo.css';
 
-class Todo extends Component{
+class Todo extends React.Component{
   render(){
     const className = 'undone'
     const link = this.props.done ? '元に戻す' : '完了!'
