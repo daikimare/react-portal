@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
-import TodoList from 'TodoList';
-import './App.css'
+import TodoList from './TodoList';
+import './css/App.css'
 
 class App extends Component{
   constructor(){
