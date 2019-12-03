@@ -2,30 +2,30 @@ import React from 'react';
 import TodoList from './TodoList';
 import './css/App.css'
 
-class App extends React.Component{
-  constructor(){
+class App extends React.Component {
+  constructor() {
     super()
     this.state = {
-      todos:[
+      todos: [
         {
-        id:1,
-        title:"Hello,React!",
-        desc:"React始めました",
-        done: false
+          id: 1,
+          title: "Hello,React!",
+          desc: "React始めました",
+          done: false
         },
         {
-          id:2,
+          id: 2,
           title: "Hello,Redux!",
           desc: "reduxも始めました",
           done: false
         },
       ]
     }
-  }
+  } ''
 
-  render(){
+  render() {
     return (
-      <div className = "app">
+      <div className="app">
         <h1>toアプリを作ってみた</h1>
         <TodoList todos={
           this.state.todos
