@@ -6,8 +6,8 @@ class Form extends Component{
     return (
       <div className = "form">
         <form onSubmit={this.props.handleSubmit}>
-          <input name = "title" type = "text" placeholder = "タイトル＊必須" defaultValue = "reactの勉強" /><br/>
-          <textarea name = "desc" placeholder = "説明を入力" defaultValue = "todoアプリを作成していいます"　/><br/>
+          <input name = "title" type = "text" placeholder = "お探しのもの＊必須" defaultValue = "" /><br/>
+          <textarea name = "desc" placeholder = "詳細を入力" defaultValue = ""　/><br/>
           <button type = "submit">todoを作成</button>
         </form>
       </div>
