@@ -8,7 +8,7 @@ class Form extends Component{
         <form onSubmit={this.props.handleSubmit}>
           <input name = "title" type = "text" placeholder = "お探しのもの＊必須" defaultValue = "" /><br/>
           <textarea name = "desc" placeholder = "詳細を入力" defaultValue = ""　/><br/>
-          <button type = "submit">todoを作成</button>
+          <button type = "submit">検索</button>
         </form>
       </div>
     )
