@@ -33,6 +33,7 @@ class App extends Component {
         "資格講習会"
       ],
       items: []
+
     }
   }
 
