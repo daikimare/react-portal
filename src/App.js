@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'; 
 //import Subject from './subject';
 import "./css/main.css";
 class App extends Component {
