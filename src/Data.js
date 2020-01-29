@@ -1,7 +1,19 @@
 import React, { Component } from 'react'; 
-//import Subject from './subject';
-import "./css/main.css";
-class App extends Component {
+// import {makeStayles,useTheme,List} from '@material-ui/core';
+// import clsx from 'clsx'
+// import {makeStayles} from '@material-ui/core'
+// import {Button} from '@material-ui/core';
+// import {IconButton} from '@material-ui/core';
+// import {Divider} from '@material-ui/core';
+// import Search from '@material-ul/icons/Search';
+// import MenuIcon from '@material-ul/icons/MenuIcon';
+// import  from '@material-ul/icons/';
+
+// const useStyle = makeStyles(theme => ({
+
+// }));
+
+class Data extends Component {
   constructor() {
     super() 
     this.state = {
@@ -52,17 +64,22 @@ class App extends Component {
     return (
       <div>
         <form action="">
-          <div className="search-box">
-            <input className="search-txt" type="text" placeholder="search" onChange={this.filterList}/>
-            <a class="search-btn" href="#">
+          <div className="searchBox">
+            <input className="searchTxt" type="text" placeholder="search" onChange={this.filterList} />
+            <a class="searchBtn" href="#">
               <i className="fas fa-search"></i>
             </a>
+          <button className = "searchBtn" variant = "contained" color = "primary" disableElevation>
+            {/* <Search>
+            </Search> */}
+            
+          </button>
           </div>
         </form>
         <div className="subjectList">
-          {this.state.items.map((item, index) => {
+          {this.state.items.map((item, Main) => {
             return (
-              <li className="subjectName" key={index}>{item}</li>
+              <li className="subjectName" key={Main}>{item}</li>
             )  
           })}
         </div>
@@ -71,4 +88,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Data;
