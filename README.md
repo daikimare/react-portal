@@ -10,15 +10,14 @@
 
 ## Description
 ### ローカルにクローン
-このコンテンツは皆さんのローカル環境にこのrepositoryをcloneして実際に実行することが可能です  
+このコンテンツは皆さんのローカル環境にこのrepositoryをcloneして実際に実行することが可能です    
 `git clone https://github.com/daikimare/react-portal.git `  
 SSHを使用している場合は  
 `git clone git@github.com:daikimare/react-portal.git`  
 以上のコマンドをローカル環境のこのrepositoryをおきたい階層で実行してください。
 ### npm install or yarn install
 このコンテンツではcloneしてきたrepositoryにライブラリのインストールを行ってください。  
-`npm insatall `または`yarn install`  
-を実行してください。  
+`npm insatall `または`yarn install`を実行してください。  
 以上で必要なライブラリをインストールすることができます
 ### npm satart or yarn start
 このコンテンツでは実際にアプリケーションを動かしていただきます。  
