@@ -1,10 +1,10 @@
 # Student-Portal
 これは金沢工業大学の学生の時間割成績を閲覧、履修申請、課題の提出などを行うポータルサイトです。
-- Demo
-- Description
-  - ローカルにクローン
-  - npm install or yarn install
-  - npm start or yarn start
+* [Demo](##Demo)
+* [Description](##Description)
+    * [ローカルにクローン](###ローカルにクローン)
+    * [npm install or yarn install](###npm-install-or-yarn-install)
+    * [npm start or yarn start](###npm-start-or-yarn-install)
 
 ## Demo
 
